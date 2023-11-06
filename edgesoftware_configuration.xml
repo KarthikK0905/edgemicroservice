@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<manifest>
+  <main label="Video_Analytics" version="1.0.0" id="63d91c188b87e92da1202235" packageId="83c3d8d4-ea88-482b-a297-79dbd3316481" osId="60126c55d9555f002a8049fb"/>
+  <default path="installation/common" esb_install="true" label="esb_common" id="6022bd8ccc7449002afdbedd"/>
+  <project path="installation/src" id="5f21392e9e63c9002a6fd88d" version="20.10.5" label="Docker_Community_Edition_CE" esb_install="true"/>
+  <project path="installation/src" id="60e327614c1e9d002a6d6a7a" version="1.29.0" label="Docker_Compose" esb_install="true"/>
+  <project path="installation/src" id="628b6e94af4093002b29bb70" version="3" label="helm_cli" esb_install="true"/>
+  <image id="619ce060b2596400208c55d0" label="eclipse-mosquitto" tag="latest"/>
+  <helm id="63d918e69fde23d6f8332787" label="evam-chart" tag="1.0.0"/>
+  <image id="63a461305906997fb51b958e" label="intel/edge_video_analytics_microservice" tag="1.0.0"/>
+  <project path="installation/src" id="63d9194bcfe2170d96f016c7" version="1.0.0" label="Edge_Video_Analytics_Resources"/>
+  <project path="installation/src" id="635ba3d19f3ecd6893e95182" version="4.0.0" label="IEdgeInsights/CoreLibs"/>
+</manifest>
